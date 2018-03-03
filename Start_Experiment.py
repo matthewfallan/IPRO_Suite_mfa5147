@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-InstallFolder = "/storage/work/mjg5185/IPRO_Suite/"
+InstallFolder = "/storage/work/mfa5147/IPRO_Suite/"
 
 # The name of this program
 __name__ = "The IPRO Suite Experiment Starter"

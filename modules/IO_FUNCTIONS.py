@@ -55,7 +55,9 @@ def answer_question(question, kind, printAnswers = [], permitAnswers = [],
     while not accept:
         # Ask the question and get the answer
         print(question)
-        answer = input()
+        # EDIT by mfa5147:
+        # Changed from input() to raw_input()
+        answer = raw_input()
         # Validate the the type of answer is acceptable
         error = False
         if kind.lower() in ['int', 'integer']:

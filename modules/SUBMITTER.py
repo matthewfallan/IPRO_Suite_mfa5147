@@ -69,7 +69,7 @@ def script_generator(experiment):
     text += "#PBS -l pmem=4gb\n"
     text += "#PBS -l walltime=" + str(hours) + ":00:00\n"
     text += "#PBS -j oe\n"
-    text += "#PBS -A cdm8_c_t_bc_default\n\n"
+    text += "#PBS -A cdm8_a_g_sc_default\n\n"
     text += "set -u\n"
     text += "cd " + experiment["Folder"] + "\n\n"
     text += 'echo " "\n'
