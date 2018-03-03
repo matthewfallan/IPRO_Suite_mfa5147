@@ -1,0 +1,24 @@
+HEADER
+HETATM    1  C   GLC     2     -10.266 -32.472  49.926
+HETATM    2  C   GLC     2      -9.883 -32.431  51.412
+HETATM    3  O   GLC     2     -10.085 -31.168  52.162
+HETATM    4  C   GLC     2     -11.316 -30.387  51.980
+HETATM    5  C   GLC     2     -12.005 -30.863  50.578
+HETATM    6  C   GLC     2     -11.733 -32.254  49.953
+HETATM    7  C   GLC     2      -8.838 -33.507  51.858
+HETATM    8  O   GLC     2      -9.046 -34.452  52.511
+HETATM    9  O   GLC     2     -13.389 -30.609  50.387
+HETATM   10  O   GLC     2     -12.355 -32.531  48.694
+HETATM   11  O   GLC     2      -9.880 -33.665  49.241
+HETATM   12  O   GLC     2      -7.621 -33.082  51.420
+HETATM   13  H   GLC     2     -10.690 -33.079  51.856
+HETATM   14  H   GLC     2     -12.038 -30.804  52.716
+HETATM   15  H   GLC     2     -11.469 -30.245  49.845
+HETATM   16  H   GLC     2     -13.467 -30.014  49.618
+HETATM   17  H   GLC     2     -12.184 -33.039  50.598
+HETATM   18  H   GLC     2     -13.033 -33.186  48.822
+HETATM   19  H   GLC     2      -9.808 -31.614  49.361
+HETATM   20  H   GLC     2      -9.272 -33.427  48.531
+HETATM   21  H   GLC     2      -7.746 -32.181  51.143
+HETATM   22  O   GLC     2     -11.745 -29.092  52.295
+HETATM   23  H   GLC     2     -11.344 -28.815  53.110

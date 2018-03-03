@@ -1,0 +1,28 @@
+./IO_ASK.py:    question = "Would you like to use 'Interaction' or 'Binding' energies to "
+./IO_ASK.py:                        "Interaction"], default, defaultEnergyCalc, question)
+./IO_CHECK.py:        if value not in ['Binding', 'Interaction']:
+./IO_CHECK.py:            text += "'Interaction'."
+./IO_CHECK.py:        text += "Interaction Energy difference weight."
+./IPRO_FUNCTIONS.py:                energies[group.number]["Interaction"] = complex-design-target
+./IPRO_FUNCTIONS.py:            current = energies[group.number]["Interaction"]
+./IPRO_FUNCTIONS.py:            reference = experiment["Energies"][group.number]["Interaction"]
+./IPRO_FUNCTIONS.py:                    current = energies[assembly.number]["Interaction"]
+./IPRO_FUNCTIONS.py:                    experiment["Energies"][assembly.number]["Interaction"]
+./IPRO_FUNCTIONS.py:                    current = energies[group[0]]["Interaction"] - \
+./IPRO_FUNCTIONS.py:                              group.weight * energies[group[1]]["Interaction"]
+./IPRO_FUNCTIONS.py:                    reference = experiment["Energies"][group[0]]["Interaction"]
+./IPRO_FUNCTIONS.py:                                experiment["Energies"][group[1]]["Interaction"]
+./IPRO_FUNCTIONS.py:                current = energies[assembly.number]["Interaction"]
+./REFINEMENT.py:        if "Interaction" not in energies[gn][1]:
+./REFINEMENT.py:            values.append(energies[gn][en]["Interaction"])
+./REFINEMENT.py:            value = math.fabs(average - energies[gn][en]["Interaction"])
+./REFINEMENT.py:        experiment["Energies"][group.number]["Interaction"] = \
+./REFINEMENT.py:        experiment["Summary"] += "Average Interaction Energy: " + \
+./SHARING.py:    terms = ['Complex', 'Interaction', 'Binding']
+./STANDARDS.py:defaultEnergyCalc = 'Interaction'
+Binary file ./STANDARDS.pyc matches
+Binary file ./IO_CHECK.pyc matches
+Binary file ./IO_ASK.pyc matches
+Binary file ./REFINEMENT.pyc matches
+Binary file ./IPRO_FUNCTIONS.pyc matches
+Binary file ./SHARING.pyc matches

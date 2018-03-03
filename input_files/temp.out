@@ -1,0 +1,4 @@
+8247c8247
+< cutnb 14.0 ctofnb 12.0 ctonnb 10.0 eps 30.0858 e14fac 1.0 wmin 1.5 
+---
+> cutnb 14.0 ctofnb 12.0 ctonnb 10.0 eps 1.0 e14fac 1.0 wmin 1.5 

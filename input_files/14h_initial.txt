@@ -1,0 +1,16 @@
+Mutation:     Mutant 1: Mutate Residue 34 in Molecule H to SER
+Mutation:     Mutant 1: Mutate Residue 35 in Molecule H to TYR
+Mutation:     Mutant 1: Mutate Residue 36 in Molecule H to ASN
+Mutation:     Mutant 1: Mutate Residue 56 in Molecule H to VAL
+Mutation:     Mutant 1: Mutate Residue 57 in Molecule H to GLY
+Mutation:     Mutant 1: Mutate Residue 58 in Molecule H to ALA
+Mutation:     Mutant 1: Mutate Residue 64 in Molecule H to SER
+Mutation:     Mutant 1: Mutate Residue 65 in Molecule H to THR
+Mutation:     Mutant 2: Mutate Residue 34 in Molecule H to SER
+Mutation:     Mutant 2: Mutate Residue 35 in Molecule H to TYR
+Mutation:     Mutant 2: Mutate Residue 36 in Molecule H to ASN
+Mutation:     Mutant 2: Mutate Residue 56 in Molecule H to MET
+Mutation:     Mutant 2: Mutate Residue 58 in Molecule H to GLY
+Mutation:     Mutant 2: Mutate Residue 63 in Molecule H to VAL
+Mutation:     Mutant 2: Mutate Residue 64 in Molecule H to SER
+Mutation:     Mutant 2: Mutate Residue 65 in Molecule H to THR

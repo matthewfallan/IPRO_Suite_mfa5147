@@ -1,0 +1,4 @@
+Mutation:     Mutant 1: Mutate Residue 30 in Molecule H to LEU
+Mutation:     Mutant 1: Mutate Residue 31 in Molecule H to SER
+Mutation:     Mutant 1: Mutate Residue 35 in Molecule H to PHE
+Mutation:     Mutant 1: Mutate Residue 36 in Molecule H to ASN

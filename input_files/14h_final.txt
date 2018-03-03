@@ -1,0 +1,4 @@
+Mutation:     Mutant 1: Mutate Residue 56 in Molecule H to MET
+Mutation:     Mutant 1: Mutate Residue 57 in Molecule H to ALA
+Mutation:     Mutant 1: Mutate Residue 58 in Molecule H to GLY
+Mutation:     Mutant 1: Mutate Residue 63 in Molecule H to VAL

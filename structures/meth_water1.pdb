@@ -1,0 +1,7 @@
+HETATM    1  OH2 TP3MA 883      27.508  -2.417  35.443  1.00 42.67           O  
+HETATM    2  H1  TP3MA 883      26.582  -2.169  35.402  1.00 42.67           H  
+HETATM    3  H2  TP3MA 883      27.824  -2.625  34.561  1.00 42.67           H  
+CONECT    1    2    3
+CONECT    2    1
+CONECT    3    1
+END
