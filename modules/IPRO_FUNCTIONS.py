@@ -753,9 +753,12 @@ def standard_decision(experiment, energies, iteration, gn):
                     best = False
                     keep = False
                     break
-            # Compare the interaction energies
-            current = energies[group.number]["Interaction"]
-            reference = experiment["Energies"][group.number]["Interaction"]
+            # EDIT by mfa5147:
+            # IPRO now screens standard results using the complex energy, not
+            # interaction energy.
+            # Compare the complex energies
+            current = energies[group.number]["Complex"]
+            reference = experiment["Energies"][group.number]["Complex"]
         # Otherwise, just try to improve the complex energy
         elif experiment["Activity"] == "Refinement":
             objective = "improve"

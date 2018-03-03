@@ -285,8 +285,23 @@ def make_rotamer_selector(residues, rotamers, RCE, RRE, experiment = None, previ
         objV.append("Z_"+str(data[0]) + "_" + str(data[1]) + "_" + str(data[2])\
                     + "_" + str(data[3]))
         e = data[4]
-        if e > 10000:
-            e = 10000.0
+        # EDIT by mfa5147:
+        # IPRO is now programmed to ignore rotamer-rotamer interaction energies
+        # and optimize rotamer-constant interaction energies alone, but because
+        # ignoring rotamer-rotamer interaction energies could lead to clashes
+        # between rotamers, if the interaction energy is above a threshhold at
+        # which the rotamers are considered to clash, then the large positive
+        # interaction energy is retained to prevent both rotamers from being
+        # chosen simulataneously.
+        # Upper threshold (to prevent the problem from blowing up)
+        threshold_upper = 10000.0
+        # Clash threshold (above which rotamers are considered to clash and
+        # their interaction energies are not ignored.
+        threshold_clash = 100.0
+        if e > threshold_upper:
+            e = threshold_upper
+        elif e < threshold_clash:
+            e = 0.0 
         objC.append(e)
     # Put the objective function in the CPLEX model
     model.variables.add(names = objV, obj = objC, lb = [0] * len(objV), ub = \
